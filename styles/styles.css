@@ -1,0 +1,72 @@
+#tweets{
+ position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 300px;
+  overflow-y: auto;
+  background-color:#99eef2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+  dt {
+    flex-basis: 20%;
+    background: #333;
+    text-align: left;
+    color: #fff;
+  }
+  dd {
+    flex-basis: 70%;
+    flex-grow: 1;
+    margin: 0;
+    padding: 2px 4px;
+    border-bottom: 1px solid #333;
+  }
+  #map-area {
+	float:center;
+	width:1000px; 
+	height:600px;
+	
+}
+
+#directionsPanel{
+	float:right;
+	width:30%;
+	height 100%;
+}
+#weather{
+	float:left;
+	
+}
+#sideFloat{
+	float:center-right
+	
+	
+}
+nav {
+  background-color: #f2f2f2;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
